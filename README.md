@@ -79,7 +79,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ### 📬 Contact
 
-Feel free to reach out via \[[email@example.com](mailto:bilolbek424@gmail.com)] or on [Instagram](https://instagram.com/dislaugh424).
+Feel free to reach out via \[[Mail](mailto:bilolbek424@gmail.com)] or on [Instagram](https://instagram.com/dislaugh424).
 
 ---
 
