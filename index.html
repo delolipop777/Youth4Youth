@@ -3,10 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Impact Collective - Creating Positive Change</title>
+    <title>Youth4Youth Global - Creating Positive Change</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
 </head>
 <body>
     <!-- Header -->
@@ -24,7 +23,6 @@
                     <li><a href="#initiatives">Initiatives</a></li>
                     <li><a href="#join">Join Us</a></li>
                     <li><a href="#partners">Partners</a></li>
-                    <li><a href="#blog">Blog</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
@@ -35,7 +33,7 @@
     <section class="hero" id="home">
         <div class="container">
             <h1>Youth Supporting Youth</h1>
-            <p>Welcome to a community where young people understand and support each other. Together we can create real positive change through small but meaningful steps.</p>
+            <p>Welcome to Youth4Youth Global, a channel dedicated to young people who care about each other and strive to create a community that supports spiritual, educational, and social changes, fostering positive change.</p>
             <div>
                 <a href="#about" class="btn">Our Mission</a>
                 <a href="#join" class="btn btn-outline">Join Us</a>
@@ -49,8 +47,8 @@
             <h2 class="section-title">About Us</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <p>Youth4Youth Global was created because many young people need support, understanding and trust. We believe every young person has ideas, knowledge and care to share. Our motto is "Let's help each other" - and we're taking action on that belief.</p>
-                    <p>What makes us different is our focus on small but heartfelt steps - a book shared, advice given, a minute of time - that can mean the world to someone. We believe in the power of youth to create positive change when we unite.</p>
+                    <p>Because a lot of young kids require assistance, attention, and trust. Everybody has a place in their hearts, a knowledge to impart, and an idea to give. "Let's help each other," was all we had to say to get the movement going.</p>
+                    <p><br>Here, tiny, heartfelt steps are more important than massive ones. A minute of time, a book, or some advice can make a big difference for someone.</p>
                 </div>
                 <div class="about-image">
                     <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80" alt="Our team">
@@ -81,26 +79,6 @@
                     <div class="project-info">
                         <h3>Education for All</h3>
                         <p>Providing access to quality education for underprivileged children through community learning centers and digital resources.</p>
-                        <a href="#" class="btn">Learn More</a>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1075&q=80" alt="Food Security">
-                    </div>
-                    <div class="project-info">
-                        <h3>Food Security Network</h3>
-                        <p>Connecting surplus food with communities in need while promoting sustainable agricultural practices.</p>
-                        <a href="#" class="btn">Learn More</a>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1433&q=80" alt="Clean Water">
-                    </div>
-                    <div class="project-info">
-                        <h3>Clean Water Access</h3>
-                        <p>Installing water purification systems and educating communities about water conservation.</p>
                         <a href="#" class="btn">Learn More</a>
                     </div>
                 </div>
@@ -173,78 +151,72 @@
     </section>
 
     <!-- Join Us Section -->
-    <section class="section join-us" id="join">
+    <!-- CTA Buttons -->
+    <section class="section cta-cards">
         <div class="container">
-            <h2 class="section-title">Join Our Movement</h2>
-            <div class="form-container">
-                <div class="form-box">
-                    <h3>Become a Volunteer</h3>
-                    <form>
-                        <div class="form-group">
-                            <label for="volunteer-name">Full Name</label>
-                            <input type="text" id="volunteer-name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="volunteer-email">Email</label>
-                            <input type="email" id="volunteer-email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="volunteer-phone">Phone</label>
-                            <input type="tel" id="volunteer-phone">
-                        </div>
-                        <div class="form-group">
-                            <label for="volunteer-location">Location</label>
-                            <input type="text" id="volunteer-location" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="volunteer-skills">Skills/Interests</label>
-                            <textarea id="volunteer-skills"></textarea>
-                        </div>
-                        <button type="submit" class="btn">Apply Now</button>
-                    </form>
-                </div>
-                <div class="form-box">
-                    <h3>Ambassador Program</h3>
-                    <form>
-                        <div class="form-group">
-                            <label for="ambassador-name">Full Name</label>
-                            <input type="text" id="ambassador-name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="ambassador-email">Email</label>
-                            <input type="email" id="ambassador-email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="ambassador-org">Organization/School (if applicable)</label>
-                            <input type="text" id="ambassador-org">
-                        </div>
-                        <div class="form-group">
-                            <label for="ambassador-location">Location</label>
-                            <input type="text" id="ambassador-location" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="ambassador-why">Why do you want to be an ambassador?</label>
-                            <textarea id="ambassador-why" required></textarea>
-                        </div>
-                        <button type="submit" class="btn">Apply Now</button>
-                    </form>
-                </div>
+            <h2 class="section-title">Join Our Mission</h2>
+            <div class="cta-grid">
+            <div class="cta-card">
+                <i class="fas fa-hands-helping fa-2x"></i>
+                <h3>Become a Volunteer</h3>
+                <p>Help us on the ground—support youth initiatives, run events, and make a real difference.</p>
+                <button class="btn open-form" data-target="volunteer">Apply Now</button>
+            </div>
+            <div class="cta-card">
+                <i class="fas fa-user-tie fa-2x"></i>
+                <h3>Join as an Ambassador</h3>
+                <p>Represent Youth4Youth Global in your school or community and drive our message forward.</p>
+                <button class="btn open-form" data-target="ambassador">Apply Now</button>
+            </div>
             </div>
         </div>
     </section>
+
+
+    <!-- Volunteer Modal -->
+    <div class="modal" id="volunteer">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Volunteer Form</h2>
+            <form id="volunteerForm">
+                <input type="hidden" name="formType" value="volunteer">
+                <input type="text" name="Full Name" placeholder="Full Name" required>
+                <input type="email" name="Email" placeholder="Email" required>
+                <input type="tel" name="Phone" placeholder="Phone (optional)">
+                <input type="text" name="Location" placeholder="Location" required>
+                <textarea name="Skills" placeholder="Skills / Interests"></textarea>
+                <button type="submit">Apply as Volunteer</button>
+                <div class="success" id="volunteerSuccess"></div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Ambassador Modal -->
+    <div class="modal" id="ambassador">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Ambassador Form</h2>
+            <form id="ambassadorForm">
+                <input type="hidden" name="formType" value="ambassador">
+                <input type="text" name="Full Name" placeholder="Full Name" required>
+                <input type="email" name="Email" placeholder="Email" required>
+                <input type="text" name="Organization" placeholder="Organization / School">
+                <input type="text" name="Location" placeholder="Location" required>
+                <textarea name="Why" placeholder="Why do you want to be an ambassador?" required></textarea>
+                <button type="submit">Apply as Ambassador</button>
+                <div class="success" id="ambassadorSuccess"></div>
+            </form>
+        </div>
+    </div>
+
+
+
 
     <!-- Partners Section -->
     <section class="section" id="partners">
         <div class="container">
             <h2 class="section-title">Our Partners</h2>
             <div class="partners-grid">
-                <div class="partner-card">
-                    <div class="partner-logo">
-                        <img src="https://via.placeholder.com/150x80?text=GreenEarth" alt="GreenEarth">
-                    </div>
-                    <h3>GreenEarth Foundation</h3>
-                    <p>Collaborating on environmental conservation projects and sustainable development initiatives.</p>
-                </div>
                 <div class="partner-card">
                     <div class="partner-logo">
                         <img src="https://via.placeholder.com/150x80?text=TeachForAll" alt="TeachForAll">
@@ -265,48 +237,6 @@
                     </div>
                     <h3>Global Health Alliance</h3>
                     <p>Working together to improve healthcare access and public health education.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Blog Section -->
-    <section class="section" id="blog">
-        <div class="container">
-            <h2 class="section-title">Latest Updates</h2>
-            <div class="blog-grid">
-                <div class="blog-card">
-                    <div class="blog-image">
-                        <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Community Event">
-                    </div>
-                    <div class="blog-content">
-                        <div class="blog-date">June 15, 2023</div>
-                        <h3>Annual Community Day Reaches Record Participation</h3>
-                        <p>This year's Community Day brought together over 2,000 volunteers across 15 cities to work on local improvement projects.</p>
-                        <a href="#" class="btn">Read More</a>
-                    </div>
-                </div>
-                <div class="blog-card">
-                    <div class="blog-image">
-                        <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80" alt="New Program">
-                    </div>
-                    <div class="blog-content">
-                        <div class="blog-date">May 28, 2023</div>
-                        <h3>Launching Our Digital Literacy Program in Rural Areas</h3>
-                        <p>We're expanding our tech education initiatives to reach 50 rural communities by the end of the year.</p>
-                        <a href="#" class="btn">Read More</a>
-                    </div>
-                </div>
-                <div class="blog-card">
-                    <div class="blog-image">
-                        <img src="https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80" alt="Impact Report">
-                    </div>
-                    <div class="blog-content">
-                        <div class="blog-date">April 10, 2023</div>
-                        <h3>2022 Impact Report: Our Collective Achievements</h3>
-                        <p>Read about how our community came together to create meaningful change across multiple initiatives last year.</p>
-                        <a href="#" class="btn">Read More</a>
-                    </div>
                 </div>
             </div>
         </div>
@@ -344,24 +274,26 @@
                 </div>
                 <div class="contact-form">
                     <h3>Send Us a Message</h3>
-                    <form>
+                    <form id="contactForm">
+                        <input type="hidden" name="formType" value="message">
                         <div class="form-group">
                             <label for="contact-name">Name</label>
-                            <input type="text" id="contact-name" required>
+                            <input type="text" id="contact-name" name="Full Name" required>
                         </div>
                         <div class="form-group">
                             <label for="contact-email">Email</label>
-                            <input type="email" id="contact-email" required>
+                            <input type="email" id="contact-email" name="Email" required>
                         </div>
                         <div class="form-group">
                             <label for="contact-subject">Subject</label>
-                            <input type="text" id="contact-subject">
+                            <input type="text" id="contact-subject" name="Subject">
                         </div>
                         <div class="form-group">
                             <label for="contact-message">Message</label>
-                            <textarea id="contact-message" required></textarea>
+                            <textarea id="contact-message" name="Message" required></textarea>
                         </div>
                         <button type="submit" class="btn">Send Message</button>
+                        <div class="success" id="contactSuccess"></div>
                     </form>
                 </div>
             </div>
@@ -411,6 +343,6 @@
             </div>
         </div>
     </footer>
-
+    <script src="script.js"></script>
 </body>
 </html>
