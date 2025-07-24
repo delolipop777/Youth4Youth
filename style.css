@@ -772,3 +772,65 @@ button .fa-spinner {
   border-radius: 6px;
   font-size: 0.95rem;
 }
+
+.section {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Section Title */
+.section-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+/* Grid Layout */
+.partners-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+}
+
+/* Partner Card */
+.partner-card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.07);
+    padding: 30px 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.partner-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* Logo Styling */
+.partner-logo img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* Partner Name */
+.partner-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    color: #0077b6;
+}
+
+/* Description */
+.partner-card p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}
