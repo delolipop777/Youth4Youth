@@ -150,9 +150,119 @@
         </div>
     </section>
 
+
+
+    <section class="testimonials-section">
+        <h2 class="section-title">Student Testimonials</h2>
+        
+        <div class="testimonials-container">
+            <div class="testimonial-carousel">
+                <!-- Testimonial 1 -->
+            <div class="testimonial-card">
+                <div class="testimonial-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p class="testimonial-content">
+                    I took a two-month IELTS course and it truly helped. My grammar, vocabulary, and strategies improved. Lessons were clear and improved all four IELTS skills. This course gave me a strong foundation. I’m very grateful to my mentor. ☺️
+                </p>
+                <div class="testimonial-author">
+                    <div class="author-info">
+                        <p>IELTS Student</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Testimonial 2 -->
+            <div class="testimonial-card">
+                <div class="testimonial-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p class="testimonial-content">
+                    The course is amazing. Zahra, our mentor, teaches every student individually and puts great effort into both lessons and homework. Her dedication makes the lessons very useful. I’m confident that with her help, we’ll all achieve success. ☺️
+                </p>
+                <div class="testimonial-author">
+                    <div class="author-info">
+                        <p>IELTS Student</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Testimonial 3 -->
+            <div class="testimonial-card">
+                <div class="testimonial-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p class="testimonial-content">
+                    This free course teaches everyone individually and aims to improve our skills. Zahra deserves huge thanks for helping with homework and explaining unclear topics. Her efforts really support us. With dedication, we’ll all see great results. 😃🙂
+                </p>
+                <div class="testimonial-author">
+                    <div class="author-info">
+                        <p>IELTS Student</p>
+                    </div>
+                </div>
+                <div class="testimonial-date">July 26, 2025</div>
+            </div>
+            
+            <!-- Testimonial 4 -->
+            <div class="testimonial-card">
+                <div class="testimonial-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p class="testimonial-content">
+                    This course was a game-changer for me. It helped me learn everything step-by-step for free. Individual attention, clear lessons, and useful homework really improved my level. With continued effort, I believe we’ll all succeed, God willing. 🔥😊
+                </p>
+                <div class="testimonial-author">
+                    <div class="author-info">
+                        <p>IELTS Graduate</p>
+                    </div>
+                </div>
+                <div class="testimonial-date">July 26, 2025</div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const carousel = document.querySelector('.testimonial-carousel');
+            const cards = document.querySelectorAll('.testimonial-card');
+            
+            // Duplicate cards for seamless looping
+            cards.forEach(card => {
+                const clone = card.cloneNode(true);
+                carousel.appendChild(clone);
+            });
+
+            // Pause animation on hover
+            carousel.addEventListener('mouseenter', () => {
+                carousel.style.animationPlayState = 'paused';
+            });
+            
+            carousel.addEventListener('mouseleave', () => {
+                carousel.style.animationPlayState = 'running';
+            });
+        });
+    </script>
+
+
     <!-- Join Us Section -->
     <!-- CTA Buttons -->
-    <section class="section cta-cards">
+    <section class="section cta-cards" id="join">
         <div class="container">
             <h2 class="section-title">Join Our Mission</h2>
             <div class="cta-grid">
